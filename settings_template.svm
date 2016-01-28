@@ -1,0 +1,149 @@
+VehicleClassSetting="2007 BMWF1 FormulaIS OWC"
+UpgradeSetting=(0,0)
+//VEH=GAMEDATA\VEHICLES\FBMW07\SAUBER\NH07.VEH
+//UpgradeClass=
+//Track Configuration=0
+//Note: settings commented out if using the default
+
+[GENERAL]
+Notes=""
+Symmetric=0
+//CGRightSetting=10//50.0:50.0
+//CGRearSetting=10//44.0:56.0
+//WedgeSetting=0//0.00 zakrêty
+FrontTireCompoundSetting=3//Miêkkie
+RearTireCompoundSetting=3//Miêkkie
+//FuelSetting=49//50L (10okr.)
+//NumPitstopsSetting=3//3
+//Pitstop1Setting=49//50L (10okr.)
+//Pitstop2Setting=49//50L (10okr.)
+//Pitstop3Setting=49//50L (10okr.)
+
+[LEFTFENDER]
+//FenderFlareSetting=0//1
+
+[RIGHTFENDER]
+//FenderFlareSetting=0//1
+
+[FRONTWING]
+FWSetting=%d//40
+
+[REARWING]
+RWSetting=%d//1
+
+[BODYAERO]
+//RadiatorSetting=3//4
+//BrakeDuctSetting=3//4
+
+[SUSPENSION]
+FrontAntiSwaySetting=%d//195 N/mm
+RearAntiSwaySetting=%d//95 N/mm
+//FrontToeInSetting=36//-0.10 st.
+//RearToeInSetting=34//0.05 st.
+//LeftCasterSetting=30//1.5 st.
+//RightCasterSetting=30//1.5 st.
+//LeftTrackBarSetting=0//0.0 cm
+//RightTrackBarSetting=0//0.0 cm
+//Front3rdPackerSetting=5//0.5 cm
+//Front3rdSpringSetting=35//70 N/mm
+//Front3rdSlowBumpSetting=6//7
+//Front3rdFastBumpSetting=2//3
+//Front3rdSlowReboundSetting=4//5
+//Front3rdFastReboundSetting=2//3
+//Rear3rdPackerSetting=10//1.0 cm
+//Rear3rdSpringSetting=40//80 N/mm
+//Rear3rdSlowBumpSetting=6//7
+//Rear3rdFastBumpSetting=2//3
+//Rear3rdSlowReboundSetting=6//7
+//Rear3rdFastReboundSetting=2//3
+
+[CONTROLS]
+//SteerLockSetting=20//15.0 st.
+//RearBrakeSetting=100//55.0:45.0
+//BrakePressureSetting=36
+//HandbrakePressSetting=0
+
+[ENGINE]
+//RevLimitSetting=15//18,615
+//EngineBoostSetting=1//2
+//EngineBrakingMapSetting=2//2
+
+[DRIVELINE]
+//FinalDriveSetting=2//11/61 (skos  1/ 1)
+//ReverseSetting=3//16/46 (15.943)
+Gear1Setting=3//16/46 (15.943)
+Gear2Setting=18//12/27 (12.477)
+Gear3Setting=26//13/25 (10.664)
+Gear4Setting=33//14/24 (9.506)
+Gear5Setting=39//20/31 (8.595)
+Gear6Setting=43//19/27 (7.880)
+Gear7Setting=47//17/22 (7.176)
+//DiffPumpSetting=30
+//DiffPowerSetting=15
+//DiffCoastSetting=20
+//DiffPreloadSetting=5//6
+//RearSplitSetting=0// 0.0:100.0
+
+[FRONTLEFT]
+//CamberSetting=16//-3.4 st.
+PressureSetting=%d//195 kPa
+//PackerSetting=13//1.3 cm
+//SpringSetting=13//94 N/mm
+//SpringRubberSetting=0
+//RideHeightSetting=18//3.8 cm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=2//2.8 cm
+//BrakePadSetting=2//3
+
+[FRONTRIGHT]
+//CamberSetting=16//-3.4 st.
+PressureSetting=%d//195 kPa
+//PackerSetting=13//1.3 cm
+//SpringSetting=13//94 N/mm
+//SpringRubberSetting=0
+//RideHeightSetting=18//3.8 cm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=2//2.8 cm
+//BrakePadSetting=2//3
+
+[REARLEFT]
+//CamberSetting=30//-1.8 st.
+PressureSetting=%d//195 kPa
+//PackerSetting=19//1.9 cm
+//SpringSetting=10//88 N/mm
+//SpringRubberSetting=0
+//RideHeightSetting=32//6.2 cm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=2//2.8 cm
+//BrakePadSetting=2//3
+
+[REARRIGHT]
+//CamberSetting=30//-1.8 st.
+PressureSetting=%d//90 kPa
+//PackerSetting=19//1.9 cm
+//SpringSetting=10//88 N/mm
+//SpringRubberSetting=0
+//RideHeightSetting=32//6.2 cm
+//SlowBumpSetting=12//13
+//FastBumpSetting=8//9
+//SlowReboundSetting=15//16
+//FastReboundSetting=12//13
+//BrakeDiscSetting=2//2.8 cm
+//BrakePadSetting=2//3
+
+[BASIC]
+Downforce=0.500000
+Balance=0.500000
+Ride=0.500000
+Gearing=0.500000
+Custom=1
+
