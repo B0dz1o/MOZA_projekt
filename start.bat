@@ -1,0 +1,1 @@
+start /d "D:\Program Files (x86)\rFactor\" rFactor.exe
