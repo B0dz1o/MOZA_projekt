@@ -9,7 +9,7 @@ template_select = ['SELECT TIME FROM SAMPLES WHERE '...
     'PRES_LB=%d AND PRES_RB=%d'];
 query_select = sprintf(template_select, settings_vector);
 cursor = exec(conn,query_select);
-time = str2num(cursor.data);
+time = cursor.data;
 close(cursor);
 end
 

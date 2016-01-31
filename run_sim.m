@@ -18,7 +18,7 @@ for i = 1: size(template_text,1)
     fprintf(sim_settings_file,'%s\n', template_text{i});
 end
 fclose(sim_settings_file);
-run('runsim.au3');
+system('runsim.au3');
 
 list = dir('D:\Program Files (x86)\rFactor\UserData\LOG\Results\*.xml');
 result_file = ['D:\Program Files (x86)\rFactor\UserData\LOG\Results\', list.name];
