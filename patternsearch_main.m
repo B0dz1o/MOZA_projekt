@@ -14,6 +14,11 @@ lb = zeros(size(x0,1), size(x0,2));
 ub = [39 39 115 75 105 105 105 105];
 nonlcon = [];
 
+options = psoptimset(@patternsearch);
+options.TolMesh = 1;
+options.MaxMeshSize = 8;
+options.InitialMeshSize = 4;
+
 
 x = patternsearch(@cost_fun,x0,A,b,Aeq,beq,lb,ub,nonlcon);
 close(conn);

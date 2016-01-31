@@ -9,11 +9,9 @@ time = read_db(settings_vector);
 disp(settings_vector)
 if time ~= 0
     circuit_time = time;
-    return;
 else
     time = run_sim(settings_vector);
     write_to_db(time, settings_vector);
 end
-close(cursor)
 end
 

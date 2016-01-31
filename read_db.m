@@ -10,5 +10,6 @@ template_select = ['SELECT TIME FROM SAMPLES WHERE'...
 query_select = sprintf(template_select, settings_vector);
 cursor = exec(conn,query_select);
 time = str2num(cursor.data);
+close(cursor);
 end
 
