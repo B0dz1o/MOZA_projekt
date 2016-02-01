@@ -18,7 +18,7 @@ for i = 1: size(template_text,1)
     fprintf(sim_settings_file,'%s\n', template_text{i});
 end
 fclose(sim_settings_file);
-run('runsim.au3');
+system('runsim.au3');
 
 list = dir('D:\Program Files (x86)\rFactor\UserData\LOG\Results\*.xml');
 result_file = ['D:\Program Files (x86)\rFactor\UserData\LOG\Results\', list.name];
@@ -26,8 +26,8 @@ DOMnode = xmlread(result_file);
 lap = DOMnode.getElementsByTagName('Lap').item(1);
 time_str = char(lap.item(0));
 time = sscanf(time_str, '[#text: %f]');
-if size(time,1) ~= 1 || size(time,2)
-    throw(MException('xml','Time not found'));
+if size(time,1) ~= 1 || size(time,2) ~= 1
+    throw(MException('moza:xml','Time not found'));
 end
 delete(result_file);
 end

@@ -1,5 +1,8 @@
+clc;
+clear;
 create_table;
-global conn
+global conn;
+global allparams;
 %x = patternsearch(fun,x0,A,b,Aeq,beq,lb,ub,nonlcon,options);
 %x: 
 %   2 wings - [0:39]
@@ -20,5 +23,5 @@ options.MaxMeshSize = 8;
 options.InitialMeshSize = 4;
 
 
-x = patternsearch(@cost_fun,x0,A,b,Aeq,beq,lb,ub,nonlcon);
+x = patternsearch(@cost_fun,x0,A,b,Aeq,beq,lb,ub,nonlcon,options);
 close(conn);

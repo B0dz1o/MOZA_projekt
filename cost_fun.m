@@ -7,11 +7,14 @@ function circuit_time = cost_fun( settings_vector )
 %circuit time - double precision value, given in seconds
 time = read_db(settings_vector);
 disp(settings_vector)
+global allparams;
+allparams = [allparams; settings_vector];
 if time ~= 0
     circuit_time = time;
 else
-    time = run_sim(settings_vector);
-    write_to_db(time, settings_vector);
+    circuit_time = run_sim(settings_vector);
+    write_to_db(circuit_time, settings_vector);
 end
+disp(circuit_time);
 end
 
