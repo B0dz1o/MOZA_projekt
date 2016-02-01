@@ -23,5 +23,5 @@ options.MaxMeshSize = 8;
 options.InitialMeshSize = 4;
 
 
-x = patternsearch(@cost_fun,x0,A,b,Aeq,beq,lb,ub,nonlcon);
+x = patternsearch(@cost_fun,x0,A,b,Aeq,beq,lb,ub,nonlcon,options);
 close(conn);

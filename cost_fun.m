@@ -14,7 +14,7 @@ if time ~= 0
 else
     circuit_time = run_sim(settings_vector);
     write_to_db(circuit_time, settings_vector);
-    disp(circuit_time);
 end
+disp(circuit_time);
 end
 
